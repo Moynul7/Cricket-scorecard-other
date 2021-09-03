@@ -1,0 +1,168 @@
+
+
+.score-table {
+	height: 320px;
+	overflow-y: scroll;
+}
+
+.table th {
+	font-size: 14px;
+    font-weight: 500;
+}
+
+.table td {
+	text-align: center;
+	opacity: 0.7;
+}
+
+.table td, .table th {
+    padding-bottom: 0px;
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+}
+
+.table thead tr th {
+	opacity: 0.7;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.table tbody th, .table tbody td {
+	border-bottom: 1px solid #dee2e6;
+}
+.table tbody tr td:nth-child(2) {
+	color: #000;
+	font-weight: 500;
+}
+
+.score-table .secondary-text {
+    display: block;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+/*.....................tabs..........................*/
+
+.nav-pills {
+	display: block;
+	text-align: center;
+}
+
+.nav-pills .nav-item {
+	display: inline-block;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    padding: 0 8px;
+    color: #000;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background: transparent;
+	border-bottom: 1px solid;
+	color: #000;
+	opacity: 1;
+}
+
+/*................................cric-bg..............................*/
+.cric-bg {
+    background-image: url(../image/Cricket-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 30px 10px;
+}
+
+.score {
+	display: block;
+	text-align: center;
+}
+
+.score .score-details {
+    background: #334932;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.score .score-details ul li {
+	display: inline-block;
+	margin-right: 15px;
+	position: relative;
+}
+
+.score .score-details p {
+	text-transform: uppercase;
+}
+
+.score .score-details ul li:after {
+    content: ':';
+    position: absolute;
+    top: -18px;
+    color: #fff;
+    margin-left: 27px;
+    font-size: 40px;
+}
+
+.score .score-details ul li:last-child:after {
+	display: none;
+}
+
+.score .score-details ul li:last-child {
+	margin-right: 0;
+}
+
+.score .score-details ul li .score-count {
+	background: #fff;
+	color: #000;
+	display: block;
+	padding: 5px 20px;
+	position: relative;
+}
+
+.score .score-details ul li .team-name {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.cric-bg .status {
+	background: #334932;
+	color: #fff;
+	padding: 20px;
+}
+
+.cric-bg .status ul {
+	border-bottom: 1px solid #fff;
+}
+
+.cric-bg .status ul li {
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	bottom: 10px;
+}
+
+.cric-bg .status ul li:after {
+    content: '';
+    width: 2px;
+    height: 18px;
+    background: #fff;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.cric-bg .status ul li:last-child:after{
+	display: none;
+}
+
